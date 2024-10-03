@@ -478,6 +478,1083 @@
       "halfCenturies": 26,
       "country": "India",
       "image": "https://th.bing.com/th/id/R.80e1d8ae1b6fb344b3dfa6f691b55f3e?rik=m8NNPFNY8g0Cwg&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fncB%2fXjz%2fncBXjzb7i.jpg&ehk=JzDXcFXkCjeqXeuzAD13sBmCPfrrWpi4%2b4uTi6JkdHw%3d&risl=1&pid=ImgRaw&r=0"
-    }    
-  ]
+    }
+  ],
+  "pizza": [
+    { 
+      "id": "1",
+      "name": "Margherita",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Aqy7kjjQbxmABSduzIg3uyh_TOOS0_GPGA&s",
+      "address": "123 Pizza St, Pizza Town",
+      "price": 12.99
+    },
+    { 
+      "id": "2",
+      "name": "Pepperoni",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLpyUBeuso0JIz0uvwEUW8ieyBzNsnSe4GiA&s",
+      "address": "456 Pizza Ave, Pizza City",
+      "price": 14.99
+    },
+    { 
+      "id": "3",
+      "name": "BBQ Chicken",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkyeDsD2sRXfr0Aq1OD-YBUrJMLo7w4XeqIw&s",
+      "address": "789 Pizza Blvd, Pizza Village",
+      "price": 15.99
+    },
+    {
+      "id": "4",
+      "name": "Vegetarian",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSraTiPseovRzS6PfUaneIyEJlovju0YAUnVQ&s",
+      "address": "321 Pizza Rd, Pizza County",
+      "price": 11.99
+    },
+    {
+      "id": "5",
+      "name": "Hawaiian",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLah-8FqP3JSNbjvPm1lPqMrkz5Q2JaY2vBQ&s",
+      "address": "654 Pizza Pkwy, Pizza State",
+      "price": 13.99
+    },
+    {
+      "id": "6",
+      "name": "Meat Lovers",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPRw6M1vP-gFj8h4qPQXaYTM6OmqS_YBhunQ&s",
+      "address": "987 Meat St, Carnivore City",
+      "price": 16.99
+    },
+    {
+      "id": "7",
+      "name": "Four Cheese",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaT9PjpUXf7QcWeBCEYXV7LmOAY2OjU6tdjg&s",
+      "address": "852 Cheese Blvd, Dairyland",
+      "price": 15.49
+    },
+    {
+      "id": "8",
+      "name": "Buffalo Chicken",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfy7shsMY8TH1FSTWMvuJok5W2AYa6bel7uw&s",
+      "address": "741 Spice Ln, Flavor Town",
+      "price": 14.49
+    },
+    { 
+      "id": "9",
+      "name": "Pesto Veggie",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFb-QOETAw_2smnhPtCqsh8A1KTeBnpYEBTQ&s",
+      "address": "963 Green Way, Herb Garden",
+      "price": 13.49
+    },
+    { 
+      "id": "10",
+      "name": "Seafood Delight",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFb-QOETAw_2smnhPtCqsh8A1KTeBnpYEBTQ&s",
+      "address": "159 Ocean Ave, Sea Town",
+      "price": 18.99
+    }
+  ],
+  "members":[
+    {
+        "id": 1,
+        "name": "Alice Johnson",
+        "gender": "Female",
+        "age": 28,
+        "description": "A passionate graphic designer with a love for nature.",
+        "image": "https://s.abcnews.com/images/Politics/convention-02-ap-iwb-200828_1598647880034_hpEmbed_3x2_992.jpg",
+        "designation": "Graphic Designer"
+    },
+    {
+        "id": 2,
+        "name": "Bob Smith",
+        "gender": "Male",
+        "age": 34,
+        "description": "An avid traveler and photographer, always looking for the next adventure.",
+        "image": "https://iv1.lisimg.com/image/7859752/400full-bob-smith-(author).jpg",
+        "designation": "Photographer"
+    },
+    {
+        "id": 3,
+        "name": "Catherine Lee",
+        "gender": "Female",
+        "age": 22,
+        "description": "A software engineer who enjoys coding and video games.",
+        "image": "https://media.bizj.us/view/img/11240304/leecatherine7827655nymit*1500xx1491-1501-429-0.jpg",
+        "designation": "Software Engineer"
+    },
+    {
+        "id": 4,
+        "name": "David Brown",
+        "gender": "Male",
+        "age": 45,
+        "description": "A chef who specializes in Italian cuisine and loves to teach cooking classes.",
+        "image": "https://www.digitaltveurope.com/files/2023/01/David-Brown-CTO_media.png",
+        "designation": "Chef"
+    },
+    {
+        "id": 5,
+        "name": "Eva Green",
+        "gender": "Female",
+        "age": 30,
+        "description": "A fitness enthusiast who enjoys yoga and healthy living.",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTQ0MDA2ODE2Ml5BMl5BanBnXkFtZTcwMjI0Nzc3Nw@@._V1_.jpg",
+        "designation": "Fitness Trainer"
+    },
+    {
+        "id": 6,
+        "name": "Frank White",
+        "gender": "Male",
+        "age": 29,
+        "description": "A musician with a passion for jazz and blues.",
+        "image": "https://i.pinimg.com/originals/d6/c3/c8/d6c3c897bf7201d7d3bc3932f08325b3.jpg",
+        "designation": "Musician"
+    },
+    {
+        "id": 7,
+        "name": "Grace Wilson",
+        "gender": "Female",
+        "age": 26,
+        "description": "An environmental activist dedicated to sustainability.",
+        "image": "https://photos.modelmayhem.com/photos/110719/05/4e25733c16901.jpg",
+        "designation": "Environmental Activist"
+    },
+    {
+        "id": 8,
+        "name": "Henry Miller",
+        "gender": "Male",
+        "age": 39,
+        "description": "A writer who loves storytelling and exploring new ideas.",
+        "image": "https://www.thoughtco.com/thmb/Fy_cUlx-O965yIE_djcWNfig2RU=/4022x5125/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-111301247-76820d4b09054178958e1fcba136aded.jpg",
+        "designation": "Author"
+    },
+    {
+        "id": 9,
+        "name": "Isabella Martinez",
+        "gender": "Female",
+        "age": 24,
+        "description": "A fashion designer inspired by cultures from around the world.",
+        "image": "https://genderjustice.georgetown.edu/wp-content/uploads/sites/112/2019/12/Isabella-Martinez-png-767x1024.png",
+        "designation": "Fashion Designer"
+    },
+    {
+        "id": 10,
+        "name": "Jack Davis",
+        "gender": "Male",
+        "age": 31,
+        "description": "An engineer who loves solving complex problems.",
+        "image": "https://img.poemhunter.com/i/p/45/1632945_b_2985.jpg",
+        "designation": "Engineer"
+    },
+    {
+        "id": 11,
+        "name": "Katherine Garcia",
+        "gender": "Female",
+        "age": 27,
+        "description": "A digital marketing expert with a knack for social media.",
+        "image": "https://static.politico.com/69/22/027c5e554831b1d385dc12ffeb73/122750268-140489304491336-6861716144300535714-o-1.jpg",
+        "designation": "Digital Marketing Specialist"
+    },
+    {
+        "id": 12,
+        "name": "Liam Harris",
+        "gender": "Male",
+        "age": 33,
+        "description": "A sports coach passionate about mentoring young athletes.",
+        "image": "https://www.loverugbyleague.com/content/uploads/2020/02/Liam-Harris-Hull-FC.jpg",
+        "designation": "Sports Coach"
+    },
+    {
+        "id": 13,
+        "name": "Mia Clark",
+        "gender": "Female",
+        "age": 21,
+        "description": "A student majoring in biology, aspiring to be a doctor.",
+        "image": "https://i0.wp.com/celebritate.com/wp-content/uploads/2023/05/Mia-Clark.jpg?w=1680&ssl=1",
+        "designation": "Student"
+    },
+    {
+        "id": 14,
+        "name": "Noah Robinson",
+        "gender": "Male",
+        "age": 36,
+        "description": "An architect who designs sustainable buildings.",
+        "image": "https://th.bing.com/th/id/R.7c114227f4cee135d0c32161baa87be5?rik=qUIrkjCO06kaBA&riu=http%3a%2f%2fstatic1.squarespace.com%2fstatic%2f600713b8f5ed0b4893df7205%2ft%2f6160b81c28fb397f17965a73%2f1633728540533%2fJEFA2632.jpg%3fformat%3d1500w&ehk=MXmmIx8P1gd9y2VX9Gih55tqwfAwCQ4fIRjv1ikbCgA%3d&risl=&pid=ImgRaw&r=0",
+        "designation": "Architect"
+    },
+    {
+        "id": 15,
+        "name": "Olivia Lewis",
+        "gender": "Female",
+        "age": 32,
+        "description": "A lawyer with a focus on human rights advocacy.",
+        "image": "https://th.bing.com/th/id/OIP.N5zOTo6_Jyjw4zQaYeODCQHaLH?rs=1&pid=ImgDetMain",
+        "designation": "Human Rights Lawyer"
+    },
+    {
+        "id": 16,
+        "name": "Paul Walker",
+        "gender": "Male",
+        "age": 40,
+        "description": "A retired military officer who now volunteers with veterans.",
+        "image": "https://cdn.amomama.com/610f13a0fe3a9d54ccbece3fb66b5de32d21789526b3e4d7d5ae06a840f5629e.jpg",
+        "designation": "Veterans Advocate"
+    },
+    {
+        "id": 17,
+        "name": "Quinn Young",
+        "gender": "Non-binary",
+        "age": 29,
+        "description": "An artist exploring identity through various mediums.",
+        "image": "https://1.bp.blogspot.com/-vWbRGFsQ-ZU/YIoxEWU2xyI/AAAAAAAC2CU/21_L99AceXYwrZCC4L6xe4RzQs1G35vmACLcBGAsYHQ/s808/anthony-quinn-5.jpeg",
+        "designation": "Artist"
+    },
+    {
+        "id": 18,
+        "name": "Rita King",
+        "gender": "Female",
+        "age": 38,
+        "description": "A philanthropist dedicated to improving education for underprivileged children.",
+        "image": "https://1.bp.blogspot.com/-Fud5fdc0iGk/Wfo0YVyNIZI/AAAAAAAADwM/qF6MAGvgmlY4dcW7JvOl77l-Icd00QnGwCLcBGAs/s1600/Rita_King_Dads_Star.jpg",
+        "designation": "Philanthropist"
+    },
+    {
+        "id": 19,
+        "name": "Sam Hall",
+        "gender": "Male",
+        "age": 27,
+        "description": "A tech entrepreneur with a focus on innovative solutions.",
+        "image": "https://conservativehome.com/wp-content/uploads/2017/04/Sam-Hall-e1491310697104.jpg",
+        "designation": "Entrepreneur"
+    },
+    {
+        "id": 20,
+        "name": "Tina Scott",
+        "gender": "Female",
+        "age": 35,
+        "description": "A community organizer advocating for local issues.",
+        "image": "https://th.bing.com/th/id/R.b1dead14282d21c003218cfcc39bb645?rik=gdFyLP2FrzQh0Q&riu=http%3a%2f%2fstatic.businessnews.com.au%2fsites%2fdefault%2ffiles%2fTina+Scott.jpeg&ehk=vnnF5RyUVKJn8vsIayiEezQQMyCwP8g9bC0DcmblEOg%3d&risl=&pid=ImgRaw&r=0",
+        "designation": "Community Organizer"
+    }
+  ],
+  "students":[
+    {
+        "id": 1,
+        "name": "Alice",
+        "marks-obtained": {
+            "telugu": 85,
+            "english": 90,
+            "hindi": 78,
+            "maths": 92,
+            "science": 88,
+            "social": 76
+        },
+        "max_marks":{
+            "telugu": 100,
+            "english": 100,
+            "hindi": 100,
+            "maths": 100,
+            "science": 100,
+            "social": 100
+        }
+    },
+    {
+        "id": 2,
+        "name": "Bob",
+        "marks-obtained": {
+            "telugu": 75,
+            "english": 82,
+            "hindi": 80,
+            "maths": 70,
+            "science": 90,
+            "social": 85
+        },
+        "max_marks":{
+            "telugu": 100,
+            "english": 100,
+            "hindi": 100,
+            "maths": 100,
+            "science": 100,
+            "social": 100
+        }
+    },
+    {
+        "id": 3,
+        "name": "Charlie",
+        "marks-obtained": {
+            "telugu": 95,
+            "english": 88,
+            "hindi": 82,
+            "maths": 85,
+            "science": 92,
+            "social": 80
+        },
+        "max_marks":{
+            "telugu": 100,
+            "english": 100,
+            "hindi": 100,
+            "maths": 100,
+            "science": 100,
+            "social": 100
+        }
+    },
+    {
+        "id": 4,
+        "name": "Diana",
+        "marks-obtained": {
+            "telugu": 60,
+            "english": 70,
+            "hindi": 65,
+            "maths": 75,
+            "science": 68,
+            "social": 72
+        },
+        "max_marks":{
+            "telugu": 100,
+            "english": 100,
+            "hindi": 100,
+            "maths": 100,
+            "science": 100,
+            "social": 100
+        }
+    },
+    {
+        "id": 5,
+        "name": "Ethan",
+        "marks-obtained": {
+            "telugu": 90,
+            "english": 85,
+            "hindi": 88,
+            "maths": 95,
+            "science": 91,
+            "social": 87
+        },
+        "max_marks":{
+            "telugu": 100,
+            "english": 100,
+            "hindi": 100,
+            "maths": 100,
+            "science": 100,
+            "social": 100
+        }
+    },
+    {
+        "id": 6,
+        "name": "Fiona",
+        "marks-obtained": {
+            "telugu": 78,
+            "english": 77,
+            "hindi": 74,
+            "maths": 80,
+            "science": 86,
+            "social": 89
+        },
+        "max_marks":{
+            "telugu": 100,
+            "english": 100,
+            "hindi": 100,
+            "maths": 100,
+            "science": 100,
+            "social": 100
+        }
+    },
+    {
+        "id": 7,
+        "name": "George",
+        "marks-obtained": {
+            "telugu": 82,
+            "english": 90,
+            "hindi": 85,
+            "maths": 78,
+            "science": 81,
+            "social": 84
+        },
+        "max_marks":{
+            "telugu": 100,
+            "english": 100,
+            "hindi": 100,
+            "maths": 100,
+            "science": 100,
+            "social": 100
+        }
+    },
+    {
+        "id": 8,
+        "name": "Hannah",
+        "marks-obtained": {
+            "telugu": 88,
+            "english": 92,
+            "hindi": 90,
+            "maths": 86,
+            "science": 94,
+            "social": 75
+        },
+        "max_marks":{
+            "telugu": 100,
+            "english": 100,
+            "hindi": 100,
+            "maths": 100,
+            "science": 100,
+            "social": 100
+        }
+    },
+    {
+        "id": 9,
+        "name": "Ian",
+        "marks-obtained": {
+            "telugu": 67,
+            "english": 72,
+            "hindi": 80,
+            "maths": 69,
+            "science": 75,
+            "social": 82
+        },
+        "max_marks":{
+            "telugu": 100,
+            "english": 100,
+            "hindi": 100,
+            "maths": 100,
+            "science": 100,
+            "social": 100
+        }
+    },
+    {
+        "id": 10,
+        "name": "Jack",
+        "marks-obtained": {
+            "telugu": 91,
+            "english": 86,
+            "hindi": 84,
+            "maths": 88,
+            "science": 90,
+            "social": 77
+        },
+        "max_marks":{
+            "telugu": 100,
+            "english": 100,
+            "hindi": 100,
+            "maths": 100,
+            "science": 100,
+            "social": 100
+        }
+    },
+    {
+        "id": 11,
+        "name": "Kathy",
+        "marks-obtained": {
+            "telugu": 72,
+            "english": 75,
+            "hindi": 73,
+            "maths": 74,
+            "science": 71,
+            "social": 69
+        },
+        "max_marks":{
+            "telugu": 100,
+            "english": 100,
+            "hindi": 100,
+            "maths": 100,
+            "science": 100,
+            "social": 100
+        }
+    },
+    {
+        "id": 12,
+        "name": "Leo",
+        "marks-obtained": {
+            "telugu": 80,
+            "english": 81,
+            "hindi": 78,
+            "maths": 83,
+            "science": 79,
+            "social": 88
+        },
+        "max_marks":{
+            "telugu": 100,
+            "english": 100,
+            "hindi": 100,
+            "maths": 100,
+            "science": 100,
+            "social": 100
+        }
+    },
+    {
+        "id": 13,
+        "name": "Maya",
+        "marks-obtained": {
+            "telugu": 88,
+            "english": 90,
+            "hindi": 85,
+            "maths": 89,
+            "science": 91,
+            "social": 80
+        },
+        "max_marks":{
+            "telugu": 100,
+            "english": 100,
+            "hindi": 100,
+            "maths": 100,
+            "science": 100,
+            "social": 100
+        }
+    },
+    {
+        "id": 14,
+        "name": "Nina",
+        "marks-obtained": {
+            "telugu": 74,
+            "english": 78,
+            "hindi": 82,
+            "maths": 76,
+            "science": 73,
+            "social": 77
+        },
+        "max_marks":{
+            "telugu": 100,
+            "english": 100,
+            "hindi": 100,
+            "maths": 100,
+            "science": 100,
+            "social": 100
+        }
+    },
+    {
+        "id": 15,
+        "name": "Oliver",
+        "marks-obtained": {
+            "telugu": 95,
+            "english": 94,
+            "hindi": 88,
+            "maths": 90,
+            "science": 92,
+            "social": 85
+        },
+        "max_marks":{
+            "telugu": 100,
+            "english": 100,
+            "hindi": 100,
+            "maths": 100,
+            "science": 100,
+            "social": 100
+        }
+    },
+    {
+        "id": 16,
+        "name": "Paula",
+        "marks-obtained": {
+            "telugu": 80,
+            "english": 85,
+            "hindi": 81,
+            "maths": 82,
+            "science": 79,
+            "social": 84
+        },
+        "max_marks":{
+            "telugu": 100,
+            "english": 100,
+            "hindi": 100,
+            "maths": 100,
+            "science": 100,
+            "social": 100
+        }
+    },
+    {
+        "id": 17,
+        "name": "Quinn",
+        "marks-obtained": {
+            "telugu": 77,
+            "english": 79,
+            "hindi": 75,
+            "maths": 80,
+            "science": 81,
+            "social": 78
+        },
+        "max_marks":{
+            "telugu": 100,
+            "english": 100,
+            "hindi": 100,
+            "maths": 100,
+            "science": 100,
+            "social": 100
+        }
+    },
+    {
+        "id": 18,
+        "name": "Ryan",
+        "marks-obtained": {
+            "telugu": 89,
+            "english": 91,
+            "hindi": 88,
+            "maths": 87,
+            "science": 93,
+            "social": 90
+        },
+        "max_marks":{
+            "telugu": 100,
+            "english": 100,
+            "hindi": 100,
+            "maths": 100,
+            "science": 100,
+            "social": 100
+        }
+    },
+    {
+        "id": 19,
+        "name": "Sophie",
+        "marks-obtained": {
+            "telugu": 65,
+            "english": 70,
+            "hindi": 72,
+            "maths": 68,
+            "science": 66,
+            "social": 71
+        },
+        "max_marks":{
+            "telugu": 100,
+            "english": 100,
+            "hindi": 100,
+            "maths": 100,
+            "science": 100,
+            "social": 100
+        }
+    },
+    {
+        "id": 20,
+        "name": "Tom",
+        "marks-obtained": {
+            "telugu": 91,
+            "english": 89,
+            "hindi": 92,
+            "maths": 90,
+            "science": 88,
+            "social": 84
+        },
+        "max_marks":{
+            "telugu": 100,
+            "english": 100,
+            "hindi": 100,
+            "maths": 100,
+            "science": 100,
+            "social": 100
+        }
+    }
+  ],
+  "arraypizzas":[{
+    "id": 1,
+    "name": "Margherita",
+    "veg": true,
+    "price": 12.99,
+    "description": "Classic pizza with tomato sauce, mozzarella, and fresh basil.",
+    "quantity": 1,
+    "image": "https://images.ricardocuisine.com/services/recipes/pizza-1498148703.jpg",
+    "size": "Medium",
+    "crusts": [
+        { "type": "Thin", "extraCharge": 0 },
+        { "type": "Thick", "extraCharge": 2 }
+    ]
+},
+{
+    "id": 2,
+    "name": "Pepperoni",
+    "veg": false,
+    "price": 14.99,
+    "description": "A delicious pizza topped with spicy pepperoni and mozzarella.",
+    "quantity": 1,
+    "image": "https://cdn.toucharcade.com/wp-content/uploads/2016/05/Pepperoni_Pizza.jpg",
+    "size": "Large",
+    "crusts": [
+        { "type": "Thin", "extraCharge": 0 },
+        { "type": "Stuffed", "extraCharge": 3 }
+    ]
+},
+{
+    "id": 3,
+    "name": "BBQ Chicken",
+    "veg": false,
+    "price": 11.99,
+    "description": "BBQ sauce, grilled chicken, and red onions on a cheesy base.",
+    "quantity": 1,
+    "image": "https://s23209.pcdn.co/wp-content/uploads/2021/10/BBQ-Chicken-PizzaIMG_0027-760x1140.jpg",
+    "size": "Small",
+    "crusts": [
+        { "type": "Thick", "extraCharge": 2 },
+        { "type": "Regular", "extraCharge": 0 }
+    ]
+},
+{
+    "id": 4,
+    "name": "Vegetarian",
+    "veg": true,
+    "price": 13.49,
+    "description": "Loaded with fresh vegetables and mozzarella cheese.",
+    "quantity": 1,
+    "image": "https://cdn.loveandlemons.com/wp-content/uploads/2023/02/vegetarian-pizza.jpg",
+    "size": "Medium",
+    "crusts": [
+        { "type": "Thin", "extraCharge": 0 },
+        { "type": "Regular", "extraCharge": 0 }
+    ]
+},
+{
+    "id": 5,
+    "name": "Hawaiian",
+    "veg": false,
+    "price": 15.49,
+    "description": "A tropical blend of ham and pineapple on a cheesy base.",
+    "quantity": 1,
+    "image": "https://www.thespruceeats.com/thmb/Tqmt7oH8AMjDWQHCSa93hE4TPe8=/2998x1999/filters:fill(auto,1)/IMG_4618fhor-a98bebf4c7e743a8bbfd6071b5dafc12.jpg",
+    "size": "Large",
+    "crusts": [
+        { "type": "Thin", "extraCharge": 0 },
+        { "type": "Regular", "extraCharge": 0 }
+    ]
+},
+{
+    "id": 6,
+    "name": "Four Cheese",
+    "veg": true,
+    "price": 16.99,
+    "description": "A blend of mozzarella, cheddar, parmesan, and gorgonzola.",
+    "quantity": 1,
+    "image": "https://yourbetterkitchen.com/wp-content/uploads/2015/06/pizza-pie-1024x655.jpg",
+    "size": "Medium",
+    "crusts": [
+        { "type": "Thin", "extraCharge": 0 },
+        { "type": "Stuffed", "extraCharge": 3 }
+    ]
+},
+{
+    "id": 7,
+    "name": "Buffalo Chicken",
+    "veg": false,
+    "price": 14.49,
+    "description": "Spicy buffalo chicken with a creamy ranch drizzle.",
+    "quantity": 1,
+    "image": "https://www.azgrabaplate.com/wp-content/uploads/Buffalo-Chicken-Pizza1.jpg",
+    "size": "Large",
+    "crusts": [
+        { "type": "Regular", "extraCharge": 0 },
+        { "type": "Thick", "extraCharge": 2 }
+    ]
+},
+{
+    "id": 8,
+    "name": "Pesto Veggie",
+    "veg": true,
+    "price": 13.99,
+    "description": "Pesto base topped with fresh vegetables and mozzarella.",
+    "quantity": 1,
+    "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Pesto-Vegetable-Pizza_EXPS_QEBZ20_26064_E01_24_3b-1.jpg?fit=700%2C1024",
+    "size": "Medium",
+    "crusts": [
+        { "type": "Thin", "extraCharge": 0 },
+        { "type": "Regular", "extraCharge": 0 }
+    ]
+},
+{
+    "id": 9,
+    "name": "Meat Lovers",
+    "veg": false,
+    "price": 17.49,
+    "description": "A hearty mix of meats including pepperoni, sausage, and bacon.",
+    "quantity": 1,
+    "image": "https://www.afamilyfeast.com/wp-content/uploads/2021/01/meat-lovers-pizza-new-4.jpg",
+    "size": "Large",
+    "crusts": [
+        { "type": "Thin", "extraCharge": 0 },
+        { "type": "Thick", "extraCharge": 2 }
+    ]
+},
+{
+    "id": 10,
+    "name": "Caprese",
+    "veg": true,
+    "price": 12.99,
+    "description": "Tomato, mozzarella, and fresh basil with a drizzle of balsamic glaze.",
+    "quantity": 1,
+    "image": "https://theclevermeal.com/wp-content/uploads/2020/03/caprese-pizza-2.jpg",
+    "size": "Medium",
+    "crusts": [
+        { "type": "Thin", "extraCharge": 0 },
+        { "type": "Regular", "extraCharge": 0 }
+    ]
+},
+{
+    "id": 11,
+    "name": "Spinach & Feta",
+    "veg": true,
+    "price": 13.49,
+    "description": "Fresh spinach, feta cheese, and olives on a cheesy base.",
+    "quantity": 1,
+    "image": "https://theclevermeal.com/wp-content/uploads/2019/09/IMG_5032-1170x1500.jpg",
+    "size": "Small",
+    "crusts": [
+        { "type": "Thin", "extraCharge": 0 },
+        { "type": "Thick", "extraCharge": 2 }
+    ]
+},
+{
+    "id": 12,
+    "name": "Seafood Delight",
+    "veg": false,
+    "price": 18.99,
+    "description": "Shrimp and calamari with a garlic butter sauce.",
+    "quantity": 1,
+    "image": "https://static.fanpage.it/wp-content/uploads/sites/22/2021/11/shrimp-pizza.jpg",
+    "size": "Large",
+    "crusts": [
+        { "type": "Regular", "extraCharge": 0 },
+        { "type": "Stuffed", "extraCharge": 3 }
+    ]
+},
+{
+    "id": 13,
+    "name": "Taco Pizza",
+    "veg": false,
+    "price": 15.99,
+    "description": "Taco seasoned beef, lettuce, and cheese with a drizzle of sour cream.",
+    "quantity": 1,
+    "image": "https://th.bing.com/th/id/R.2f4a9fc6009849a50e76b9ea024a94e8?rik=ES1tmY8bl28c8Q&riu=http%3a%2f%2f3.bp.blogspot.com%2f-6IY19LQSytQ%2fVWKGT8tjIpI%2fAAAAAAAAKDQ%2fj5GyDvGOoZ4%2fs1600%2fIMG_0021.jpg&ehk=0ZZPuNZde3kL%2bOJEnfE%2f1kfDPa9bFlJvVO1BPOB%2b1QU%3d&risl=&pid=ImgRaw&r=0",
+    "size": "Medium",
+    "crusts": [
+        { "type": "Thin", "extraCharge": 0 },
+        { "type": "Regular", "extraCharge": 0 }
+    ]
+},
+{
+    "id": 14,
+    "name": "Chicken Alfredo",
+    "veg": false,
+    "price": 16.49,
+    "description": "Creamy Alfredo sauce topped with grilled chicken and parmesan.",
+    "quantity": 1,
+    "image": "https://www.thereciperebel.com/wp-content/uploads/2021/03/chicken-alfredo-pizza-www.thereciperebel.com-600-25-of-33.jpg",
+    "size": "Large",
+    "crusts": [
+        { "type": "Thin", "extraCharge": 0 },
+        { "type": "Thick", "extraCharge": 2 }
+    ]
+},
+{
+    "id": 15,
+    "name": "Philly Cheesesteak",
+    "veg": false,
+    "price": 17.49,
+    "description": "Steak, onions, and peppers with a creamy cheese sauce.",
+    "quantity": 1,
+    "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps53598_TH153340B09_24_14b-2.jpg",
+    "size": "Large",
+    "crusts": [
+        { "type": "Regular", "extraCharge": 0 },
+        { "type": "Stuffed", "extraCharge": 3 }
+    ]
+},
+{
+    "id": 16,
+    "name": "Mushroom Truffle",
+    "veg": true,
+    "price": 14.99,
+    "description": "Sautéed mushrooms, truffle oil, and mozzarella.",
+    "quantity": 1,
+    "image": "https://fabeveryday.com/wp-content/uploads/2021/04/prosciutto-mushroom-truffle-pizza-6.jpg",
+    "size": "Medium",
+    "crusts": [
+        { "type": "Thin", "extraCharge": 0 },
+        { "type": "Regular", "extraCharge": 0 }
+    ]
+},
+{
+    "id": 17,
+    "name": "Cheeseburger Pizza",
+    "veg": false,
+    "price": 16.99,
+    "description": "Beef, pickles, onions, and cheddar cheese on a pizza crust.",
+    "quantity": 1,
+    "image": "https://cdn.pratico-pratiques.com/app/uploads/sites/2/2018/06/18095133/pizza-au-cheeseburger.jpg",
+    "size": "Large",
+    "crusts": [
+        { "type": "Thin", "extraCharge": 0 },
+        { "type": "Thick", "extraCharge": 2 }
+    ]
+},
+{
+    "id": 18,
+    "name": "Buffalo Veggie",
+    "veg": true,
+    "price": 13.49,
+    "description": "Spicy buffalo sauce with mixed vegetables and mozzarella.",
+    "quantity": 1,
+    "image": "https://veganwhat.b-cdn.net/wp-content/uploads/2022/04/Buffalo-Chickpea-Pizza-scaled.jpg",
+    "size": "Medium",
+    "crusts": [
+        { "type": "Thin", "extraCharge": 0 },
+        { "type": "Regular", "extraCharge": 0 }
+    ]
+},
+{
+    "id": 19,
+    "name": "Chili Chicken",
+    "veg": false,
+    "price": 14.99,
+    "description": "Spicy chili sauce, chicken, and onions with cheese.",
+    "quantity": 1,
+    "image": "https://live.staticflickr.com/65535/51987956846_a1cf3eb699_z.jpg",
+    "size": "Large",
+    "crusts": [
+        { "type": "Regular", "extraCharge": 0 },
+        { "type": "Thick", "extraCharge": 2 }
+    ]
+},
+{
+    "id": 20,
+    "name": "Tomato Basil",
+    "veg": true,
+    "price": 11.99,
+    "description": "Fresh tomatoes, basil, and mozzarella on a light crust.",
+    "quantity": 1,
+    "image": "https://kevinshealthykitchen.biz/wp-content/uploads/2017/08/Basil-Tomato-Pizza.jpg",
+    "size": "Small",
+    "crusts": [
+        { "type": "Thin", "extraCharge": 0 },
+        { "type": "Regular", "extraCharge": 0 }
+    ]
+},
+{
+    "id": 21,
+    "name": "Eggplant Parmesan",
+    "veg": true,
+    "price": 14.49,
+    "description": "Breaded eggplant with marinara sauce and mozzarella.",
+    "quantity": 1,
+    "image": "https://www.familicious.net/wp-content/uploads/2020/03/eggplant-parmesan-pizza2-e1584041561513-818x1024.jpg",
+    "size": "Medium",
+    "crusts": [
+        { "type": "Thin", "extraCharge": 0 },
+        { "type": "Regular", "extraCharge": 0 }
+    ]
+},
+{
+    "id": 22,
+    "name": "Garlic Chicken",
+    "veg": false,
+    "price": 15.99,
+    "description": "Garlic sauce, grilled chicken, and mozzarella.",
+    "quantity": 1,
+    "image": "https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/16/05/06/hNNu2nwvTO2R5jIAwfKL_20161108_195817.jpg",
+    "size": "Large",
+    "crusts": [
+        { "type": "Regular", "extraCharge": 0 },
+        { "type": "Thick", "extraCharge": 2 }
+    ]
+},
+{
+    "id": 23,
+    "name": "Mediterranean",
+    "veg": true,
+    "price": 13.99,
+    "description": "Olives, feta, and sun-dried tomatoes with oregano.",
+    "quantity": 1,
+    "image": "https://i1.wp.com/www.unicornsinthekitchen.com/wp-content/uploads/2018/08/Mediterranean-Pizza-2.700px.jpg?fit=1500%2C1000&ssl=1",
+    "size": "Medium",
+    "crusts": [
+        { "type": "Thin", "extraCharge": 0 },
+        { "type": "Regular", "extraCharge": 0 }
+    ]
+},
+{
+    "id": 24,
+    "name": "Tandoori Chicken",
+    "veg": false,
+    "price": 16.99,
+    "description": "Tandoori spiced chicken with red onions and cilantro.",
+    "quantity": 1,
+    "image": "https://img.taste.com.au/pkbTXdWH/taste/2016/11/tandoori-chicken-pizza-60718-1.jpeg",
+    "size": "Large",
+    "crusts": [
+        { "type": "Thin", "extraCharge": 0 },
+        { "type": "Stuffed", "extraCharge": 3 }
+    ]
+},
+{
+    "id": 25,
+    "name": "Caribbean Jerk Chicken",
+    "veg": false,
+    "price": 17.49,
+    "description": "Jerk spiced chicken with pineapple and jalapeños.",
+    "quantity": 1,
+    "image": "https://www.readyseteat.ca/sites/g/files/qyyrlu541/files/uploadedImages/Pineapple%20Jerk-021_0.jpg",
+    "size": "Large",
+    "crusts": [
+        { "type": "Regular", "extraCharge": 0 },
+        { "type": "Thick", "extraCharge": 2 }
+    ]
+},
+{
+    "id": 26,
+    "name": "Bacon Cheeseburger",
+    "veg": false,
+    "price": 18.99,
+    "description": "Bacon, beef, and cheddar cheese on a pizza crust.",
+    "quantity": 1,
+    "image": "https://www.somewhatsimple.com/wp-content/uploads/2017/05/bacon_cheeseburger_pizza_10.jpg",
+    "size": "Large",
+    "crusts": [
+        { "type": "Thin", "extraCharge": 0 },
+        { "type": "Thick", "extraCharge": 2 }
+    ]
+},
+{
+    "id": 27,
+    "name": "Sausage & Peppers",
+    "veg": false,
+    "price": 15.49,
+    "description": "Italian sausage with bell peppers and onions.",
+    "quantity": 1,
+    "image": "https://th.bing.com/th/id/R.3a779221efbcc06051137bdf40708889?rik=a4X%2bZEGYHEymsA&riu=http%3a%2f%2fwww.simplyscratch.com%2fwp-content%2fuploads%2f2013%2f11%2fcheck-out-the-cheese.jpg&ehk=THlZgIVr1bPYBu5XNKvU2MwkNmCp0XL2NOIugMkQeUw%3d&risl=&pid=ImgRaw&r=0",
+    "size": "Medium",
+    "crusts": [
+        { "type": "Thin", "extraCharge": 0 },
+        { "type": "Regular", "extraCharge": 0 }
+    ]
+},
+{
+    "id": 28,
+    "name": "Ranch Chicken",
+    "veg": false,
+    "price": 16.49,
+    "description": "Chicken, ranch dressing, and mozzarella cheese.",
+    "quantity": 1,
+    "image": "https://d1bjorv296jxfn.cloudfront.net/s3fs-public/styles/recipes_header_image/public/recipe-images/sargento/Chicken-Ranch-Pizza.jpg?itok=nCzqU0nc",
+    "size": "Large",
+    "crusts": [
+        { "type": "Thin", "extraCharge": 0 },
+        { "type": "Thick", "extraCharge": 2 }
+    ]
+},
+{
+    "id": 29,
+    "name": "Cajun Shrimp",
+    "veg": false,
+    "price": 17.99,
+    "description": "Spicy shrimp with bell peppers and cheese.",
+    "quantity": 1,
+    "image": "https://th.bing.com/th/id/R.9474bba20f1d88337c9d2cd040852bf1?rik=b%2bN%2bhe7wCOCO2Q&riu=http%3a%2f%2fcdn.sheknows.com%2farticles%2f2014%2f03%2fC_Guauta%2fcajun_shrimp_pizza-sk.jpg&ehk=3mjry3vOrR5TK1cZ35894v%2f2ngi7ckFwACSiiaXbeiI%3d&risl=&pid=ImgRaw&r=0",
+    "size": "Large",
+    "crusts": [
+        { "type": "Regular", "extraCharge": 0 },
+        { "type": "Stuffed", "extraCharge": 3 }
+    ]
+},
+{
+    "id": 30,
+    "name": "Fajita Pizza",
+    "veg": false,
+    "price": 15.99,
+    "description": "Chicken or beef with fajita spices and veggies.",
+    "quantity": 1,
+    "image": "https://1.bp.blogspot.com/-kpbbtRhLmaA/XsQ47CI-BII/AAAAAAAAN7w/7BRzvzP7wjc39sHyI_SzKOARkb8CANPCQCLcBGAsYHQ/s1600/64EC3D9A-93C8-42DA-A45E-41DC89BC4A32_1_201_a.jpeg",
+    "size": "Medium",
+    "crusts": [
+        { "type": "Thin", "extraCharge": 0 },
+        { "type": "Regular", "extraCharge": 0 }
+    ]
+}]
+
 }

@@ -1,0 +1,123 @@
+<html lang="en"></html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Cart</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="./Jsonser12p.js"></script>
+    <link rel="shortcut icon" href="https://static.vecteezy.com/system/resources/previews/009/384/620/original/fresh-pizza-and-pizza-box-clipart-design-illustration-free-png.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        function Pizza() {
+            var [piz, setPiz] = React.useState(pizzas)
+            let [y,setY]=React.useState([])
+            function add(pizza) {
+             setY((piz) => [...piz, pizza]);
+            }
+            function del(i){
+               let t=[...y];
+               t.splice(i ,1)
+              setY([...t])
+            }
+            return (
+                <div>
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid" style={{background:'lightpink',border:'0px solid'}}>
+    <a class="navbar-brand" href="#">Zomato</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="https://www.zomato.com/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"/></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+                    <div style={{ width: '100%', border: "1px solid", display: 'flex', flexDirection: 'row', flexWrap: "wrap", justifyContent: 'center' }}>
+                        <div style={{flexWrap:'wrap',display:'flex',flexDirection:'column'}}>
+                        </div>
+                        <div class="p-1 m-1 d-flex flex-wrap justify-content-evenly">
+                            {
+                                piz.map((p,i) => {
+                                    return (
+                                        <Cpizza c={p} pri={add} i={i}> del={del}</Cpizza>
+                                    )
+                                })
+                            }
+                            </div>
+                            <div style={{display:'flex-wrap',flexWrap:'wrap',alignItems:'center'}}>
+                              <h1>Your Orders</h1>
+                              <div  class="d-flex flex-wrap justifyContent-bitween  alignItem-center">
+                                {
+                                  y.map((order,i)=>{
+                                    return(
+                                      <div >
+                                        {
+                                          <div class=''>
+                                            <img src={order.image} alt="" width="100px" height="100px" />
+                                            <h5 i={i}>{order.name}</h5>
+                                            <h6 style={{color:'blue'}}>{order.price} Rs</h6>
+                                            <div>
+                                              <button onClick={()=>{del(i)}}>Delete</button>
+                                              </div>
+                                              </div>
+                                            }
+                                            </div>
+                                          )
+                                        })
+                                      }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    )
+                }
+                function Cpizza(props){
+            return (
+                <div class="card m-1 p-2 text-center fs-3 shadow p-3 mb-5 bg-body-tertiary rounded" style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'space-between', margin: '0px' }}>
+                    <img src={props.c.image} className="card-img-top" alt="Pizza Image" style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
+                    <div class="card-body w-100">
+                        <h3 class="card-title">{props.c.name}</h3>
+                        <h4>{props.c.price}</h4>
+                        <p class="card-text">{props.c.type}</p>
+                        <button class="btn btn-primary w-100" type="button" onClick={()=>{props.pri(props.c)}}>Buy</button>
+                    </div>
+                    </div>
+                    )
+                }
+        ReactDOM.render(<Pizza />, document.getElementById("root"))
+    </script>
+</body>
+
+</html>
