@@ -1555,6 +1555,217 @@
         { "type": "Thin", "extraCharge": 0 },
         { "type": "Regular", "extraCharge": 0 }
     ]
-}]
-
+ }],
+"lap-products":[
+  {
+      "id": 1,
+      "name": "Acer Aspire 5",
+      "description": "A powerful laptop for everyday use.",
+      "image": "https://i5.walmartimages.com/asr/594929a8-8cb9-41b6-aec2-a52e73f6867a.182e8423b76c8be28ec20a52ff73aff5.jpeg",
+      "features": ["15.6 inch display", "Intel Core i5", "8GB RAM", "512GB SSD"]
+  },
+  {
+      "id": 2,
+      "name": "Dell XPS 13",
+      "description": "Premium ultra book with stunning design.",
+      "image": "https://www.techandsoft.com/wp-content/uploads/2019/08/91Qbl1lVWL._SL1500_.jpg",
+      "features": ["13.4 inch display", "Intel Core i7", "16GB RAM", "1TB SSD"]
+  },
+  {
+      "id": 3,
+      "name": "HP Pavilion 15",
+      "description": "Versatile laptop for work and play.",
+      "image": "https://th.bing.com/th/id/R.118a5d5d4d35bbea59c7f4a09215cbb6?rik=WY5t%2biXdHWlBtw&riu=http%3a%2f%2fwww.notebookcheck.net%2ffileadmin%2fNotebooks%2fHP%2fPavilion_15-n050sg%2fPavilion15_Teaser2.jpg&ehk=9g4Av7O%2fA5%2bFCAIiW4%2fMHEdKrn2IhgXk7zxqAJm%2fQoc%3d&risl=&pid=ImgRaw&r=0",
+      "features": ["15.6 inch display", "AMD Ry zen 5", "8GB RAM", "256GB SSD"]
+  },
+  {
+      "id": 4,
+      "name": "Apple MacBook Air",
+      "description": "Lightweight and powerful MacBook.",
+      "image": "https://th.bing.com/th/id/OIP.y6nHWpwz5muoIPKWAUvkbQHaHa?rs=1&pid=ImgDetMain",
+      "features": ["13.3 inch Retina display", "Apple M1 chip", "8GB RAM", "256GB SSD"]
+  },
+  {
+      "id": 5,
+      "name": "Lenovo ThinkPad X1 Carbon",
+      "description": "Business laptop with exceptional durability.",
+      "image": "https://www.notebookcheck.net/fileadmin/Notebooks/Lenovo/ThinkPad_X1_Carbon_2017-20HQS03P00_/teaser_4_3.JPG",
+      "features": ["14 inch display", "Intel Core i7", "16GB RAM", "512GB SSD"]
+  },
+  {
+      "id": 6,
+      "name": "ASUS ZenBook 14",
+      "description": "Sleek and powerful for on-the-go productivity.",
+      "image": "https://microless.com/cdn/products/02407a5529b94a79121f91f8d677a3e5-hi.jpg",
+      "features": ["14 inch display", "Intel Core i5", "8GB RAM", "512GB SSD"]
+  },
+  {
+      "id": 7,
+      "name": "Microsoft Surface Laptop 4",
+      "description": "Stylish and versatile for professionals.",
+      "image": "https://i.pcmag.com/imagery/reviews/00wuFRRKhfmy9R1KVW4t3G4-4.jpg",
+      "features": ["13.5 inch display", "Intel Core i5", "16GB RAM", "512GB SSD"]
+  },
+  {
+      "id": 8,
+      "name": "Razer Blade 15",
+      "description": "High-performance gaming laptop.",
+      "image": "https://media.ldlc.com/r1600/ld/products/00/05/81/17/LD0005811726_1_0005812002.jpg",
+      "features": ["15.6 inch display", "Intel Core i7", "16GB RAM", "1TB SSD"]
+  },
+  {
+      "id": 9,
+      "name": "LG Gram 17",
+      "description": "Ultra-light laptop with a large screen.",
+      "image": "https://altechelectronics.org/wp-content/uploads/2021/04/81I-KuNSDS._AC_SL1500_-2048x1518.jpg",
+      "features": ["17 inch display", "Intel Core i7", "16GB RAM", "1TB SSD"]
+  },
+  {
+      "id": 10,
+      "name": "HP Spectre x360",
+      "description": "2-in-1 convertible with premium features.",
+      "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6376/6376413cv14d.jpg",
+      "features": ["13.3 inch OLED display", "Intel Core i7", "16GB RAM", "512GB SSD"]
+  },
+  {
+      "id": 11,
+      "name": "Acer Swift 3",
+      "description": "Affordable and lightweight laptop.",
+      "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/Acer_Swift_5_SF514_55_High_01.jpg",
+      "features": ["14 inch display", "AMD Ryzen 7", "8GB RAM", "512GB SSD"]
+  },
+  {
+      "id": 12,
+      "name": "Dell Inspiron 15",
+      "description": "Budget-friendly laptop for everyday tasks.",
+      "image": "https://i.dell.com/sites/csimages/Videos_Images/all/inspiron-15-7000-2n1-rollupimage.jpg",
+      "features": ["15.6 inch display", "Intel Core i3", "8GB RAM", "128GB SSD"]
+  },
+  {
+      "id": 13,
+      "name": "Samsung Galaxy Book Pro",
+      "description": "Ultra-thin and lightweight for mobile professionals.",
+      "image": "https://qooah.com/wp-content/uploads/2021/04/Qooah-Samsung-Galaxy-Book-Pro_2-scaled.jpeg",
+      "features": ["15.6 inch AMOLED display", "Intel Core i7", "16GB RAM", "1TB SSD"]
+  },
+  {
+      "id": 14,
+      "name": "MSI GS66 Stealth",
+      "description": "Gaming laptop with powerful graphics.",
+      "image": "https://dev.mos.cms.futurecdn.net/UzpFBhMQ6CuTykTMHtXkgj.jpg",
+      "features": ["15.6 inch display", "Intel Core i7", "16GB RAM", "1TB SSD"]
+  },
+  {
+      "id": 15,
+      "name": "HP Envy 13",
+      "description": "Stylish laptop for creative professionals.",
+      "image": "https://cdn.mos.cms.futurecdn.net/YScuhquFC4geSNfbDyGvuk.jpg",
+      "features": ["13.3 inch display", "Intel Core i5", "16GB RAM", "512GB SSD"]
+  },
+  {
+      "id": 16,
+      "name": "Lenovo IdeaPad 3",
+      "description": "Affordable laptop with great performance.",
+      "image": "https://i5.walmartimages.com/asr/28f12985-dc3d-4f25-82c8-23a76d954285.29de792b6a66875a4115b4ba263f8b2d.jpeg",
+      "features": ["15.6 inch display", "AMD Ryzen 5", "8GB RAM", "256GB SSD"]
+  },
+  {
+      "id": 17,
+      "name": "Asus ROG Zephyrus G14",
+      "description": "Compact gaming laptop with excellent performance.",
+      "image": "https://www.lydogbillede.dk/wp-content/uploads/2020/10/Asus-ROG-Zephyrus-G14.jpg",
+      "features": ["14 inch display", "AMD Ryzen 9", "16GB RAM", "1TB SSD"]
+  },
+  {
+      "id": 18,
+      "name": "Microsoft Surface Pro 7",
+      "description": "Versatile 2-in-1 laptop for professionals.",
+      "image": "https://www.pcworld.com/wp-content/uploads/2023/04/surface-pro-7-primary-100877015-orig-1.jpg?quality=50&strip=all",
+      "features": ["12.3 inch display", "Intel Core i5", "8GB RAM", "256GB SSD"]
+  },
+  {
+      "id": 19,
+      "name": "Toshiba Dynabook Satellite Pro",
+      "description": "Reliable laptop for business users.",
+      "image": "https://www.serversdirect.co.uk/Images/PT5A1E-02V00CEN_6_Supersize.jpg?width=937&height=937&v=1",
+      "features": ["15.6 inch display", "Intel Core i5", "8GB RAM", "256GB SSD"]
+  },
+  {
+      "id": 20,
+      "name": "Dell G5 15",
+      "description": "Mid-range gaming laptop with solid performance.",
+      "image": "https://brain-images-ssl.cdn.dixons.com/8/0/10182908/u_10182908.jpg",
+      "features": ["15.6 inch display", "Intel Core i5", "8GB RAM", "512GB SSD"]
+  },
+  {
+      "id": 21,
+      "name": "HP Omen 15",
+      "description": "Powerful gaming laptop with customizable features.",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71YO97sdkEL.jpg",
+      "features": ["15.6 inch display", "Intel Core i7", "16GB RAM", "1TB SSD"]
+  },
+  {
+      "id": 22,
+      "name": "Lenovo Legion 5",
+      "description": "Gaming laptop with immersive visuals.",
+      "image": "https://i5.walmartimages.com/asr/d4267cfd-d6d2-46c6-99dc-7b7e366e7a64.5ba00056ec361247189716b7c4a1f97e.jpeg",
+      "features": ["15.6 inch display", "AMD Ryzen 7", "16GB RAM", "512GB SSD"]
+  },
+  {
+      "id": 23,
+      "name": "Acer Predator Helios 300",
+      "description": "High-performance gaming laptop.",
+      "image": "https://www.notebookcheck-cn.com/typo3temp/_processed_/b/4/csm_helios_7_e037a029b3.jpg",
+      "features": ["15.6 inch display", "Intel Core i7", "16GB RAM", "1TB SSD"]
+  },
+  {
+      "id": 24,
+      "name": "ASUS VivoBook 15",
+      "description": "Stylish and budget-friendly laptop.",
+      "image": "https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F6prasl3c07p31.jpg",
+      "features": ["15.6 inch display", "Intel Core i3", "8GB RAM", "128GB SSD"]
+  },
+  {
+      "id": 25,
+      "name": "Apple MacBook Pro 16",
+      "description": "Powerful laptop for professionals and creatives.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/11/IMG_1415.jpeg",
+      "features": ["16 inch Retina display", "Apple M1 Pro chip", "16GB RAM", "512GB SSD"]
+  },
+  {
+      "id": 26,
+      "name": "Acer Chromebook Spin 713",
+      "description": "Versatile 2-in-1 Chromebook.",
+      "image": "https://www.androidpolice.com/wp-content/uploads/2020/06/23/Acer-Chromebook-Spin-713-CP713-2W-High_03-scaled.jpg",
+      "features": ["13.5 inch display", "Intel Core i5", "8GB RAM", "256GB SSD"]
+  },
+  {
+      "id": 27,
+      "name": "Lenovo ThinkPad L14",
+      "description": "Affordable business laptop with great battery life.",
+      "image": "https://cf.shopee.ph/file/5c9eb59d5d84303776435666bdcb6fa2",
+      "features": ["14 inch display", "Intel Core i5", "8GB RAM", "256GB SSD"]
+  },
+  {
+      "id": 28,
+      "name": "MSI GF65 Thin",
+      "description": "Compact gaming laptop with powerful specs.",
+      "image": "https://www.bhphotovideo.com/images/images2500x2500/msi_gf65_thin_9sd_837_gf65_i7_9750_gtx1660ti_8gb_512g_win10_1571734.jpg",
+      "features": ["15.6 inch display", "Intel Core i7", "16GB RAM", "512GB SSD"]
+  },
+  {
+      "id": 29,
+      "name": "HP ProBook 450",
+      "description": "Reliable laptop for business users.",
+      "image": "https://www.hp.com/gb-en/shop/html/Merch/Images/c05254762_1750x1285.jpg",
+      "features": ["15.6 inch display", "Intel Core i5", "8GB RAM", "256GB SSD"]
+  },
+  {
+      "id": 30,
+      "name": "Dell Latitude 7420",
+      "description": "Premium business laptop with advanced security features.",
+      "image": "https://laptop365.vn/pic/product/images/dell-latitude-7420-carbon-laptop365%20(1).jpg",
+      "features": ["14 inch display", "Intel Core i7", "16GB RAM", "512GB SSD"]
+  }
+]
 }
