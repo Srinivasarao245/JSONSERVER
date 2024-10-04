@@ -17,7 +17,7 @@
         var Ab = function(){
             var [sr,setSr] = React.useState();
             React.useEffect(()=>{
-                fetch("http://localhost:3000/pizza")
+                fetch("http://localhost:3000/arraypizzas")
                 .then((res)=>{res.json()
                 .then((data)=>{setSr([...data])})   
                 })
@@ -32,10 +32,14 @@
                             {sr?.map((a)=>{
                                 return <div className="card m-2 p-2" style={{width:"270px"}}>
                                             <div className="card-body">
-                                                <div className="shadow-lg border border-dbl" style={{borderRadius:"50%",overflow:"hidden"}}>
-                                                    <img  src={a.image} alt="" width="220px" height="150px" /></div>
-                                                <h4 className="card-title">Name:{a.name}</h4>
-                                                <b className="card-text">Address:{a.address}</b>
+                                                <div className="shadow-lg border border-dbl" style={{borderRadius:"100%",overflow:"hidden"}}>
+                                                    <img  src={a.image} alt="" width="250px" height="160px" />
+                                                </div>
+                                                <div className="d-flex justify-content-between p-1 m-1">
+                                                    <h4 className="card-title">Name:{a.name}</h4>
+                                                    <i className="bi bi-circle-fill border border-3 p-2 m-2" style={a.veg ? {color:"green"} : {color:"red"}}></i>
+                                                </div>
+                                                <b className="card-text">Description{a.description}</b><br/>
                                                 <i>Price:{a.price}</i>
                                             </div>
                                        </div>

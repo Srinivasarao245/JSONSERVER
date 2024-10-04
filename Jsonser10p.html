@@ -23,7 +23,7 @@
                 })
             },[])
             return ( <div>
-                        <table className="table table-bordered border-danger table-warning">
+                        <table className="table table-bordered border-danger table-success">
                             <thead>
                                 <tr>
                                     <th>Id</th>
@@ -36,14 +36,14 @@
                                 </tr>
                             </thead>
                             <tbody>{pi?.map((a)=>{
-                                return <tr>
+                                return <tr className={a.veg?"table-primary-emphasis":"table-warning"}>
                                     <td>{a.id}</td>
                                     <td>{a.name}</td>
                                     <td>{a.price}</td>
                                     <td>{a.description}</td>
                                     <td>{a.quantity}</td>
                                     <td>{a.size}</td>
-                                    <td><img width="100px" src={a.image} /></td>
+                                    <td class="col-md-2 mb-md-0 p-md-1"><img className="w-100" src={a.image} alt="" height="150px" width="200px" /></td>
                                     </tr>})}
                             </tbody>
                         </table>

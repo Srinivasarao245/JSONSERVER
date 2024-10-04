@@ -25,12 +25,12 @@
             return ( <div>
                         <h1>Pizza Cart</h1>
                             <div className="d-flex flex-wrap">{ac?.map((c)=>{
-                                return <div className="card m-2 p-2" style={{width:"550px"}}>
+                                return <div className="card m-2 p-2" style={{width:"300px"}}>
                                             <i>{c.id}</i>
-                                            <img style={{width:"530px",height:'450px'}} src={c.image} alt="" />
-                                            <div className="d-flex justify-content-between p-1">
-                                                <h1 className="card-title">{c.name}</h1>
-                                                <i className="bi bi-circle-fill border border-4 p-3" style={c.veg ? {color:"green"} : {color:"red"}}></i>
+                                            <img style={{width:"280px",height:'250px', borderRadius:"20%"}} src={c.image} alt="" />
+                                            <div className="d-flex justify-content-between p-1 m-1">
+                                                <h4 className="card-title">{c.name}</h4>
+                                                <i className="bi bi-circle-fill border border-3 p-2 m-2" style={c.veg ? {color:"green"} : {color:"red"}}></i>
                                             </div>
                                             <h6>{c.description}</h6>
                                             <i>{c.quantity}</i>
@@ -44,15 +44,3 @@
     </script>
 </body>
 </html>
-<!--  "id": 1,
-    "name": "Margherita",
-    "veg": true,
-    "price": 12.99,
-    "description": "Classic pizza with tomato sauce, mozzarella, and fresh basil.",
-    "quantity": 1,
-    "image": "https://images.ricardocuisine.com/services/recipes/pizza-1498148703.jpg",
-    "size": "Medium",
-    "crusts": [
-        { "type": "Thin", "extraCharge": 0 },
-        { "type": "Thick", "extraCharge": 2 }
-    ] -->
